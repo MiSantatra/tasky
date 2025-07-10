@@ -8,7 +8,7 @@ type Props = {
 export default function Header({ darkMode, setDarkMode }: Props) {
   return (
     <header className="flex justify-between items-center">
-      <h1 className="text-3xl font-bold select-none">TaskMate Pro</h1>
+      <h1 className="text-3xl font-bold select-none">Tasky</h1>
 
       <button
         aria-label="Toggle Dark Mode" 
